@@ -1,0 +1,75 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30517.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore8Dev", "Sitecore8Dev\Sitecore8Dev.csproj", "{F2EB89A4-F722-4FDD-86D9-965E75C6CD13}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configuration", "{ABA045C1-3160-4E40-B81C-7D0FE095EE46}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{3D9C5D01-1C5D-489D-88E7-1EC749F16D36}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{BBBAB759-6BF5-485D-B461-A4F7951ECAC1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project", "Project", "{6429A44F-4A64-4251-815B-0D4E398DD442}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sitecore8Dev", "Sitecore8Dev", "{09C0DA28-E85C-4AE6-BC1A-9B29F749E0A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore8Dev.Website", "Project\Sitecore8Dev.Website\Sitecore8Dev.Website.csproj", "{6F058A2E-31F1-43B0-8026-DF94CA457C11}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SitecoreExtensions", "SitecoreExtensions", "{3755CC3C-9206-4F80-9C7C-5EB27E98498B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore8Dev.Foundation.SitecoreExtensions", "Foundation\Sitecore8Dev.Foundation.SitecoreExtensions\Sitecore8Dev.Foundation.SitecoreExtensions.csproj", "{E1D5FB1B-F01B-4F8D-B0E9-74B5F7E6B84C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Styles", "Styles", "{0D7F776E-9523-42E8-9516-B9C8D8038D0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore8Dev.Foundation.Styles", "Foundation\Sitecore8Dev.Foundation.Styles\Sitecore8Dev.Foundation.Styles.csproj", "{1682F715-BB4F-4F64-81F7-41A7FF82FD61}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Media", "Media", "{681EF7FC-17EB-4C27-81A5-22613D9B3610}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore8Dev.Feature.Media", "Feature\Media\Sitecore8Dev.Feature.Media\Sitecore8Dev.Feature.Media.csproj", "{6DDC945A-0314-4D30-86E5-63F6A7FFA0CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F2EB89A4-F722-4FDD-86D9-965E75C6CD13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2EB89A4-F722-4FDD-86D9-965E75C6CD13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2EB89A4-F722-4FDD-86D9-965E75C6CD13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2EB89A4-F722-4FDD-86D9-965E75C6CD13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F058A2E-31F1-43B0-8026-DF94CA457C11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F058A2E-31F1-43B0-8026-DF94CA457C11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F058A2E-31F1-43B0-8026-DF94CA457C11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F058A2E-31F1-43B0-8026-DF94CA457C11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1D5FB1B-F01B-4F8D-B0E9-74B5F7E6B84C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1D5FB1B-F01B-4F8D-B0E9-74B5F7E6B84C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1D5FB1B-F01B-4F8D-B0E9-74B5F7E6B84C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1D5FB1B-F01B-4F8D-B0E9-74B5F7E6B84C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1682F715-BB4F-4F64-81F7-41A7FF82FD61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1682F715-BB4F-4F64-81F7-41A7FF82FD61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1682F715-BB4F-4F64-81F7-41A7FF82FD61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1682F715-BB4F-4F64-81F7-41A7FF82FD61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DDC945A-0314-4D30-86E5-63F6A7FFA0CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DDC945A-0314-4D30-86E5-63F6A7FFA0CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DDC945A-0314-4D30-86E5-63F6A7FFA0CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DDC945A-0314-4D30-86E5-63F6A7FFA0CC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{09C0DA28-E85C-4AE6-BC1A-9B29F749E0A0} = {6429A44F-4A64-4251-815B-0D4E398DD442}
+		{6F058A2E-31F1-43B0-8026-DF94CA457C11} = {09C0DA28-E85C-4AE6-BC1A-9B29F749E0A0}
+		{3755CC3C-9206-4F80-9C7C-5EB27E98498B} = {BBBAB759-6BF5-485D-B461-A4F7951ECAC1}
+		{E1D5FB1B-F01B-4F8D-B0E9-74B5F7E6B84C} = {3755CC3C-9206-4F80-9C7C-5EB27E98498B}
+		{0D7F776E-9523-42E8-9516-B9C8D8038D0D} = {BBBAB759-6BF5-485D-B461-A4F7951ECAC1}
+		{1682F715-BB4F-4F64-81F7-41A7FF82FD61} = {0D7F776E-9523-42E8-9516-B9C8D8038D0D}
+		{681EF7FC-17EB-4C27-81A5-22613D9B3610} = {3D9C5D01-1C5D-489D-88E7-1EC749F16D36}
+		{6DDC945A-0314-4D30-86E5-63F6A7FFA0CC} = {681EF7FC-17EB-4C27-81A5-22613D9B3610}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E6328E07-0B33-45C6-BBB7-CCCD85C66F0C}
+	EndGlobalSection
+EndGlobal
