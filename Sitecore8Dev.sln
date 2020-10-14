@@ -6,6 +6,11 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore8Dev", "Sitecore8Dev\Sitecore8Dev.csproj", "{F2EB89A4-F722-4FDD-86D9-965E75C6CD13}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configuration", "{ABA045C1-3160-4E40-B81C-7D0FE095EE46}"
+	ProjectSection(SolutionItems) = preProject
+		gulp-config.js = gulp-config.js
+		gulpfile.js = gulpfile.js
+		package.json = package.json
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{3D9C5D01-1C5D-489D-88E7-1EC749F16D36}"
 EndProject
